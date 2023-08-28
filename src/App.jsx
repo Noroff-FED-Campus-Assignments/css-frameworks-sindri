@@ -4,6 +4,7 @@ import "./App.scss";
 function App() {
   return (
     <>
+      <h1 className="text-xs text-red-600">Hello tailwind</h1>
       <header>
         <nav>
           <ul>
