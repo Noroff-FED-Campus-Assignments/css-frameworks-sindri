@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1 className="text-xs text-red-600">Hello tailwind</h1>
-      <div className="flex-column gap-9">
+      <div className="flex-column ">
         <div>1</div>
         <div>2</div>
       </div>
@@ -30,7 +30,7 @@ function App() {
       </main>
 
       <footer>
-        <small>Created with ❤️ by Hallvard</small>
+        <small>Created with ❤️ by </small>
       </footer>
     </>
   );
