@@ -31,7 +31,7 @@ function App() {
       </main>
 
       <footer>
-        <small>Created with ❤️ by </small>
+        <small>Created with ❤️ by Hallvard</small>
       </footer>
     </>
   );
