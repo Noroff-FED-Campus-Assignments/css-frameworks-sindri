@@ -1,6 +1,6 @@
 import { Outlet, Link } from "@tanstack/react-router";
 import "./App.scss";
-
+import Navigation from "./components/navbar";
 function App() {
   return (
     <>
@@ -10,6 +10,7 @@ function App() {
         <div>2</div>
       </div>
       <header>
+<Navigation/>
         <nav>
           <ul>
             <li>
