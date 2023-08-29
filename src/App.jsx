@@ -6,8 +6,8 @@ function App() {
     <>
       <h1 className="text-xs text-red-600">Hello tailwind</h1>
       <div className="flex-column ">
-        <div>1</div>
-        <div>21234</div>
+        <div>122</div>
+        <div>2</div>
       </div>
       <header>
         <nav>
