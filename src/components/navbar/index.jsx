@@ -76,7 +76,7 @@ export default function Navigation() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                       src='./src/assets/media/bob.avif'
+                       src='./src/assets/media/bob.jpg'
                         alt=""
                       />
                     </Menu.Button>
