@@ -1,13 +1,12 @@
 import { Outlet, Link } from "@tanstack/react-router";
 import "./App.scss";
 import Navigation from "./components/navbar";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
-      
-     
       <header>
-        <Navigation/>
+        <Navigation />
       </header>
 
       <main>
@@ -15,7 +14,7 @@ function App() {
       </main>
 
       <footer>
-        <small>Created with ❤️ by Andrea</small>
+        <Footer />
       </footer>
     </>
   );
