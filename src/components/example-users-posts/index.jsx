@@ -1,5 +1,5 @@
 import { useUsersPosts } from "../../lib/my-api";
-
+import { MakeComment } from "../comment-field";
 function ExampleUsersPosts() {
   const userId = 2;
   const { status, error, data } = useUsersPosts(userId);
@@ -15,7 +15,8 @@ function ExampleUsersPosts() {
 
   return (
     <>
-      <section role="search"></section>
+    <MakeComment/>
+      {/* <section role="search"></section>
 
       <article role="doc-introduction">
         <h2>List</h2>
@@ -29,7 +30,7 @@ function ExampleUsersPosts() {
 
       <section role="list">
         <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
-      </section>
+      </section> */}
     </>
   );
 }
