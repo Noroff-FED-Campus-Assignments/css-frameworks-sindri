@@ -34,11 +34,11 @@ export default function Navigation() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  {/* <img FJERNES
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
-                  />
+                  /> */}
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -76,7 +76,7 @@ export default function Navigation() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                       src='src/assets/media/bob.avif'
+                       src='./src/assets/media/bob.avif'
                         alt=""
                       />
                     </Menu.Button>
@@ -94,7 +94,7 @@ export default function Navigation() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="./profile"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile
