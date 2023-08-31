@@ -16,21 +16,7 @@ function ExampleUsersPosts() {
   return (
     <>
     <MakeComment/>
-      {/* <section role="search"></section>
-
-      <article role="doc-introduction">
-        <h2>List</h2>
-
-        {data.posts.map((post) => (
-          <div key={post.id}>
-            <h3>{post.title}</h3>
-          </div>
-        ))}
-      </article>
-
-      <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
-      </section> */}
+      her kommer kommentarer
     </>
   );
 }

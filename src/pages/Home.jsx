@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <>
     
-    <Searchbar/>
+      <Searchbar/>
       <ExampleUsersPosts />
 
     </>
