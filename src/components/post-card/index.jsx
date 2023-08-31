@@ -1,10 +1,10 @@
 function PostCard() {
   return (
-    <div className="m-auto flex max-w-lg flex-col gap-6 rounded-2xl bg-blue-50 px-6 py-4">
+    <div className="m-auto flex flex-col gap-6 rounded-2xl bg-blue-50 px-6 py-4">
       <div className="info flex gap-4">
         <div className="h-14 w-14 rounded-xl bg-gray-300"></div>
-        <div>
-          <div className="text-xl font-semibold">Navn Navnesen</div>
+        <div className="text-left">
+          <div className="md:text-lg font-semibold">Navn Navnesen</div>
           <div className="flex gap-2 text-gray-500">
             <time>19.apr. 2023</time>
             <div>Norway</div>
@@ -13,7 +13,7 @@ function PostCard() {
       </div>
 
       <div>
-        <p>
+        <p className="text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud
