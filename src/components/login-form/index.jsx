@@ -1,7 +1,7 @@
 export default function Login() {
     return (
       <>
-        <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 border-2 border-indigo-300 w-96 mx-auto rounded-xl">
+        <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             {/* <img
               className="mx-auto h-10 w-auto"
@@ -57,12 +57,21 @@ export default function Login() {
               <div>
               <button
   type="submit"
-  className="flex w-full justify-center rounded-md bg-gradient-to-r from-blue-200 to-blue-100 px-3 py-4 text-lg font-bold leading-6 text-black shadow-sm hover:from-blue-200 hover:to-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
+  className="flex w-full justify-center w-86 rounded-md bg-gradient-to-r from-green-950 to-green-700 px-3 py-4 text-lg font-bold leading-6 text-white shadow-sm hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
 >
   Sign in
 </button>
 
               </div>
+        
+              <div className="flex justify-center">
+              <button
+                type="button"
+                className="w-86 rounded-md bg-gradient-to-r from-green-950 to-green-700 px-3 py-4 text-lg font-bold leading-6 text-white shadow-sm hover:from-green-800 hover:to-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-200"
+              >
+                Create a new user
+              </button>
+            </div>
             </form>
           </div>
         </div>
