@@ -16,7 +16,7 @@ function ExampleUsersPosts() {
   return (
     <>
     <MakeComment/>
-    
+      her kommer kommentarer
     </>
   );
 }
