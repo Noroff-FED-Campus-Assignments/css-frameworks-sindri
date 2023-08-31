@@ -6,7 +6,7 @@ function PostCard(props) {
       <div className="info flex gap-4">
         <div className="h-14 w-14 rounded-xl bg-gray-300"></div>
         <div className="text-left">
-          <div className="md:text-lg font-semibold">{props.author}</div>
+          <div className="md:text-lg font-semibold">{props.author ? props.author: "Navn Navnesen"}</div>
           <div className="flex gap-2 text-gray-500">
             <time>19.apr. 2023</time>
             <div>Norway</div>
