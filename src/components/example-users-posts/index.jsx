@@ -1,5 +1,6 @@
 import { useUsersPosts } from "../../lib/my-api";
 import { MakeComment } from "../comment-field";
+import PostCard from "../post-card";
 function ExampleUsersPosts() {
   const userId = 2;
   const { status, error} = useUsersPosts(userId);
@@ -16,7 +17,8 @@ function ExampleUsersPosts() {
   return (
     <>
     <MakeComment/>
-      her kommer kommentarer
+    <PostCard author="Ola Olsen" />
+    <PostCard author="Kari Børresen" />
     </>
   );
 }
