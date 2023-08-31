@@ -1,7 +1,6 @@
 export default function Login() {
     return (
       <>
-      <div className="flex-auto mx-auto m-8">
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 border-2 border-indigo-300 w-96 mx-auto rounded-xl">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             {/* <img
@@ -66,7 +65,6 @@ export default function Login() {
               </div>
             </form>
           </div>
-        </div>
         </div>
       </>
     )
