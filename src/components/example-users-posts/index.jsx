@@ -17,9 +17,15 @@ function ExampleUsersPosts() {
   return (
     <>
     <MakeComment/>
+    <div className="my-5">
     <PostCard author="Ola Olsen" />
+    </div>
+    <div className="my-5">
     <PostCard author="Kari Børresen" />
+    </div>
+    <div className="my-5">
     <PostCard author="Line Hansen" />
+    </div>
 
     </>
   );
