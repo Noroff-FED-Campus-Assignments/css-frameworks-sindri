@@ -30,12 +30,18 @@ function ProfilePage() {
             </ul>
           </div>
 
-          <div className=" p-2 grid gap-2">
+          <div className="grid gap-2">
             <h2 className="md:text-xl font-medium text-left px-6">About</h2>
             <ul className="grid text-left gap-2 md:gap-4 md:text-lg rounded-2xl bg-gray-50 px-6 py-4">
-              <li>📍 From Norway</li>
-              <li>💼 Frontend-developer at zeta</li>
-              <li>🎂 13.july 1992</li>
+              <li className="border border-b-1 border-x-0 border-t-0 py-1 md:py-2 flex gap-2">
+                <div>📍</div> <div>From Norway</div>
+              </li>
+              <li className="border border-b-1 border-x-0 border-t-0 py-1 md:py-2 flex gap-2">
+                <div>💼</div> <div>Frontend-developer at zeta</div>
+              </li>
+              <li className="border border-b-1 border-x-0 border-t-0 py-1 md:py-2 flex gap-2">
+                <div>🎂</div> <div>13.july 1992</div>
+              </li>
             </ul>
           </div>
         </div>
