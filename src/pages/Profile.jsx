@@ -1,4 +1,5 @@
 import PostCard from "../components/post-card";
+import ContactCard from "../components/contact-card";
 import { MakeComment } from "../components/comment-field";
 function ProfilePage() {
   return (
@@ -22,8 +23,8 @@ function ProfilePage() {
           <div className="md:hidden mt-2">
             <h2 className="md:text-xl font-medium">Contacts</h2>
             <ul className="md:hidden flex justify-evenly my-2">
-              <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-              <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
+              <ContactCard />
+              <ContactCard />
               <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
               <button>See more</button>
             </ul>
@@ -54,14 +55,16 @@ function ProfilePage() {
         <div className="hidden md:block">
           <h2 className="md:text-xl font-medium text-left px-6">Contacts</h2>
           <ul className="hidden md:grid lg:grid-cols-2 gap-2 justify-items-center mt-2">
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-            <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
           </ul>
         </div>
       </div>
