@@ -6,7 +6,7 @@ function ProfilePage() {
     <>
       <div className="grid px-2 xl:px-0 max-w-screen-xl md:grid-cols-[250px_auto_100px] lg:grid-cols-[300px_auto_200px] mx-auto gap-4 lg:gap-8 py-4 md:py-8">
         <div className="flex flex-col gap-2 md:gap-10">
-          <div className="grid gap-4">
+          <div className="grid gap-4 ">
             <div className="overflow-hidden object-cover object-center rounded-3xl aspect-square h-32 mx-auto md:w-full md:h-full">
               <img
                 src="https://images.unsplash.com/photo-1618826411640-d6df44dd3f7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
@@ -25,9 +25,12 @@ function ProfilePage() {
             <ul className="md:hidden flex justify-evenly my-2">
               <ContactCard />
               <ContactCard />
-              <li className="bg-gray-200 w-14 h-14 md:w-20 md:h-20 rounded-xl"></li>
-              <button>See more</button>
+              <ContactCard />
+              <ContactCard />
             </ul>
+            <button className="font-bold align-text-bottom bg-transparent text-right w-full">
+              Se all •••
+            </button>
           </div>
 
           <div className="grid gap-2">
