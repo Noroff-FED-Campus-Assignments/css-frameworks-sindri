@@ -6,8 +6,10 @@ function HomePage() {
     <>
     <div className=" md:w-2/4 mx-auto">
       <Searchbar/>
-     
-      <ExampleUsersPosts />
+      
+    <ExampleUsersPosts />
+    
+      
       </div>
     </>
   );
