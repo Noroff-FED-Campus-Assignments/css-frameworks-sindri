@@ -9,7 +9,7 @@ function Footer() {
               className="flex items-center mb-4 sm:mb-0"
             >
               <img
-                src="../public/assets/media/sindri-logo.svg"
+                src="/public/assets/media/sindri-logo.svg"
                 className="h-8 mr-3"
                 alt="Sindri Logo"
               />
