@@ -19,6 +19,8 @@ function ExampleUsersPosts() {
     <MakeComment/>
     <PostCard author="Ola Olsen" />
     <PostCard author="Kari Børresen" />
+    <PostCard author="Line Hansen" />
+
     </>
   );
 }
