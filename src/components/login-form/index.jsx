@@ -16,9 +16,11 @@ export default function Login() {
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <form className="space-y-8" action="/profile" method="#">
               <div>
+                <div className="flex items-start">
                 <label htmlFor="email" className="block text-l font-medium leading-6 text-gray-900">
                   USERNAME
                 </label>
+                </div>
                 <div className="mt-2">
                   <input
                     id="email"
