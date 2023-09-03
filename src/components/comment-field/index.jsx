@@ -19,7 +19,7 @@ export function MakeComment() {
           <div className="flex items-center justify-between px-3 py-2 border-t dark:border-gray-600 w-2/4  md:w-3/4 lg:w-2/4">
             <button
               type="submit"
-              className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white  btn var(--button) rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800"
+              className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white  btn var(--button) rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-green-700"
             >
               Post comment
             </button>

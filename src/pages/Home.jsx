@@ -4,10 +4,12 @@ import Searchbar from "../components/searchbar";
 function HomePage() {
   return (
     <>
-    <div className=" w-2/4 mx-auto">
+    <div className=" md:w-2/4 mx-auto">
       <Searchbar/>
-     
-      <ExampleUsersPosts />
+      
+    <ExampleUsersPosts />
+    
+      
       </div>
     </>
   );
