@@ -16,7 +16,6 @@ This project was bootstrapped with Vite.
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/css-frameworks/ca/ca)
 - [Design](https://www.figma.com/file/n9RepwpZXbw4xUyaS0ndpV/CSS-Framework-project-team-5?type=design&node-id=0%3A1&mode=design&t=N98XWfsE8MekKTwJ-1)
 - [Production deploy](https://clever-panda-43a701.netlify.app/)
-- [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
 
@@ -27,7 +26,15 @@ YOu can update your deployment pipeling by editing the [vercel.json](https://ver
 
 ## Report
 
-_ADD_YOUR_REPORT_HERE_
+Group: Andrea, Hallvard, Mikaela
+
+Tailwind CSS was the framework we chose for web styling because it has accessible features, it is user friendly and responsive.
+
+We divided the pages so each of us had one page to make, but we decided on the design together. We chose to use green as the main color, and chose to make the design simple.Then we coded individually, but checked each other's pages if there were any changes that needed to be done. There were some templates and code from Tailwind and Flowbite that we used, but we also added our own code to make it look like our design.
+
+Andrea made the homepage, Hallvard the profile page and Mikaela the login page. We used common components such as the header and footer across all pages for consistency.
+
+Initially, we had some difficulty with branches, pull requests, and getting our individual changes to work on the page. However, we eventually figured it out through teamwork and perseverance.
 
 ## Getting Started
 
@@ -55,10 +62,10 @@ All of these todo's must be done to pass the asssignment.
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
-- [x] All pages have a meta description.
-- [x] All pages have a valid title.
-- [x] All pages import the correct css files.
-- [x] All pages import the correct JS file.
+- [ ] All pages have a meta description.
+- [ ] All pages have a valid title.
+- [ ] All pages import the correct css files.
+- [ ] All pages import the correct JS file.
 - [ ] Input fields have the following attributes;
   - [ ] Name
 - [ ] All images have an alt tag;
