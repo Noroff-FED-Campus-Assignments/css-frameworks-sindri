@@ -4,7 +4,9 @@ function PostCard(props) {
   return (
     <div className="m-auto flex flex-col gap-6 rounded-2xl bg-blue-50 px-6 py-4">
       <div className="info flex gap-4">
-        <div className="h-14 w-14 rounded-xl bg-gray-300"></div>
+        <div className="h-14 w-14 rounded-xl bg-gray-300">
+          <img src="https://placekitten.com/200/200" alt="profile image" />
+        </div>
         <div className="text-left">
           <div className="md:text-lg font-semibold">{props.author ? props.author: "Navn Navnesen"}</div>
           <div className="flex gap-2 text-gray-500">
