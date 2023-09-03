@@ -14,8 +14,8 @@ This project was bootstrapped with Vite.
 <!-- You must replace these links -->
 
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/css-frameworks/ca/ca)
-- [Design](_https://www.figma.com/file/n9RepwpZXbw4xUyaS0ndpV/CSS-Framework-project-team-5?type=design&node-id=0%3A1&mode=design&t=N98XWfsE8MekKTwJ-1_)
-- [Production deploy](_https://clever-panda-43a701.netlify.app/_)
+- [Design](https://www.figma.com/file/n9RepwpZXbw4xUyaS0ndpV/CSS-Framework-project-team-5?type=design&node-id=0%3A1&mode=design&t=N98XWfsE8MekKTwJ-1)
+- [Production deploy](https://clever-panda-43a701.netlify.app/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
