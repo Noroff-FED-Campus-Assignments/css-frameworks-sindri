@@ -1,4 +1,7 @@
+import PropTypes from "prop-types";
+
 function PostCard(props) {
+
   return (
     <div className="m-auto flex flex-col gap-6 rounded-2xl bg-blue-50 px-6 py-4 dark:bg-gray-700">
       <div className="info flex gap-4">
@@ -30,5 +33,9 @@ function PostCard(props) {
     </div>
   );
 }
+
+PostCard.propTypes = {
+  author: PropTypes.string
+};
 
 export default PostCard;
