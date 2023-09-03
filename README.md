@@ -50,7 +50,7 @@ All of these todo's must be done to pass the asssignment.
 
 - [x] As a customer I can view the searchbar component.
 - [x] As a customer I can fill a form to create a new post.
-- [ ] As a customer I can list of posts.
+- [x] As a customer I can list of posts.
 - [x] As a customer I can view a profile image.
 - [x] As a customer I can view details about a user
 - [x] As a customer I can view a users contact details
@@ -62,10 +62,10 @@ All of these todo's must be done to pass the asssignment.
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
-- [ ] All pages have a meta description.
-- [ ] All pages have a valid title.
-- [ ] All pages import the correct css files.
-- [ ] All pages import the correct JS file.
+- [x] All pages have a meta description.
+- [x] All pages have a valid title.
+- [x] All pages import the correct css files.
+- [x] All pages import the correct JS file.
 - [ ] Input fields have the following attributes;
   - [ ] Name
 - [ ] All images have an alt tag;
@@ -73,19 +73,19 @@ Make sure you go through this checklist before submitting your project to Moodle
   - [ ] A placeholder,
   - [ ] A aria-describedby,
   - [ ] Required
-- [ ] Removed all unused files.
-- [ ] Named all images properly.
+- [x] Removed all unused files.
+- [x] Named all images properly.
 - [ ] Committed all my code to github.
-- [ ] My repo is publically viewable.
-- [ ] I've submitted/ written a report.
-- [ ] I've removed all todo notes in code.
-- [ ] I've removed all console logs in code.
-- [ ] Code is formatted correctly.
-- [ ] There are no red underlines in VSCode.
-- [ ] There are no error messages in the terminal when I run the project.
-- [ ] My code is indented correctly.
-- [ ] I've checked my report for grammer & spelling using grammerly or chatGPT
-- [ ] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] My repo is publically viewable.
+- [x] I've submitted/ written a report.
+- [x] I've removed all todo notes in code.
+- [x] I've removed all console logs in code.
+- [x] Code is formatted correctly.
+- [x] There are no red underlines in VSCode.
+- [x] There are no error messages in the terminal when I run the project.
+- [x] My code is indented correctly.
+- [x] I've checked my report for grammer & spelling using grammerly or chatGPT
+- [x] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [ ] I've checked off every todo in this README.
 
 ## Help & Tutorials
