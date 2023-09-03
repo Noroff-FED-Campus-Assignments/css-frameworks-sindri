@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WzuOnFrK)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11645542&assignment_repo_type=AssignmentRepo)
+
 # FED CSS Frameworks Course Assignment
 
 This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an `_`.
@@ -13,8 +14,8 @@ This project was bootstrapped with Vite.
 <!-- You must replace these links -->
 
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/css-frameworks/ca/ca)
-- [Design](_LINK_TO_FIGMA_)
-- [Production deploy](_LINK_TO_WEBSITE_)
+- [Design](_https://www.figma.com/file/n9RepwpZXbw4xUyaS0ndpV/CSS-Framework-project-team-5?type=design&node-id=0%3A1&mode=design&t=N98XWfsE8MekKTwJ-1_)
+- [Production deploy](_https://clever-panda-43a701.netlify.app/_)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
@@ -40,24 +41,24 @@ In the project directory, you can run:
 
 All of these todo's must be done to pass the asssignment.
 
-- [ ] As a customer I can view the searchbar component.
-- [ ] As a customer I can fill a form to create a new post.
+- [x] As a customer I can view the searchbar component.
+- [x] As a customer I can fill a form to create a new post.
 - [ ] As a customer I can list of posts.
-- [ ] As a customer I can view a profile image.
-- [ ] As a customer I can view details about a user
-- [ ] As a customer I can view a users contact details
-- [ ] As a customer I can view a users posts
-- [ ] As a customer I can fill out a form to post on a users wall
-- [ ] As a customer I can fill a form to login
+- [x] As a customer I can view a profile image.
+- [x] As a customer I can view details about a user
+- [x] As a customer I can view a users contact details
+- [x] As a customer I can view a users posts
+- [x] As a customer I can fill out a form to post on a users wall
+- [x] As a customer I can fill a form to login
 
 ## Checklist
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
-- [ ] All pages have a meta description.
-- [ ] All pages have a valid title.
-- [ ] All pages import the correct css files.
-- [ ] All pages import the correct JS file.
+- [x] All pages have a meta description.
+- [x] All pages have a valid title.
+- [x] All pages import the correct css files.
+- [x] All pages import the correct JS file.
 - [ ] Input fields have the following attributes;
   - [ ] Name
 - [ ] All images have an alt tag;
