@@ -77,7 +77,7 @@ export default function Navigation() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                       src='./assets/media/Bob.jpg'
+                       src='https://placekitten.com/100/100'
                         alt=""
                       />
                     </Menu.Button>
