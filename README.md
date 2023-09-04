@@ -66,16 +66,16 @@ Make sure you go through this checklist before submitting your project to Moodle
 - [x] All pages have a valid title.
 - [x] All pages import the correct css files.
 - [x] All pages import the correct JS file.
-- [ ] Input fields have the following attributes;
-  - [ ] Name
-- [ ] All images have an alt tag;
-  - [ ] A name,
-  - [ ] A placeholder,
-  - [ ] A aria-describedby,
-  - [ ] Required
+- [x] Input fields have the following attributes;
+  - [x] Name
+- [x] All images have an alt tag;
+  - [x] A name,
+  - [x] A placeholder,
+  - [x] A aria-describedby,
+  - [x] Required
 - [x] Removed all unused files.
 - [x] Named all images properly.
-- [ ] Committed all my code to github.
+- [x] Committed all my code to github.
 - [x] My repo is publically viewable.
 - [x] I've submitted/ written a report.
 - [x] I've removed all todo notes in code.
@@ -86,7 +86,7 @@ Make sure you go through this checklist before submitting your project to Moodle
 - [x] My code is indented correctly.
 - [x] I've checked my report for grammer & spelling using grammerly or chatGPT
 - [x] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- [ ] I've checked off every todo in this README.
+- [x] I've checked off every todo in this README.
 
 ## Help & Tutorials
 
