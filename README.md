@@ -75,7 +75,7 @@ Make sure you go through this checklist before submitting your project to Moodle
   - [x] Required
 - [x] Removed all unused files.
 - [x] Named all images properly.
-- [ ] Committed all my code to github.
+- [x] Committed all my code to github.
 - [x] My repo is publically viewable.
 - [x] I've submitted/ written a report.
 - [x] I've removed all todo notes in code.
