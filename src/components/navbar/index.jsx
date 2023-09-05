@@ -1,22 +1,20 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: 'Home', href: '/', current: false },
-  { name: 'Profile', href: '/profile', current: false },
-  { name: 'Login', href: '/login', current: false },
-]
-
+  { name: "Home", href: "/", current: false },
+  { name: "Profile", href: "/profile", current: false },
+  { name: "Login", href: "/login", current: false },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
-
+/* component from flowbite.com */
 export default function Navigation() {
   return (
     <Disclosure as="nav" className="btn var(--primary)">
-        
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -34,8 +32,7 @@ export default function Navigation() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
-                </div>
+                <div className="flex flex-shrink-0 items-center"></div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -43,10 +40,12 @@ export default function Navigation() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-white hover:underline hover:text-white text-xl',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current
+                            ? "bg-gray-900 text-white"
+                            : "text-white hover:underline hover:text-white text-xl",
+                          "rounded-md px-3 py-2 text-sm font-medium",
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </a>
@@ -72,7 +71,7 @@ export default function Navigation() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                       src='https://placekitten.com/100/100'
+                        src="https://placekitten.com/100/100"
                         alt="profile image"
                       />
                     </Menu.Button>
@@ -91,7 +90,10 @@ export default function Navigation() {
                         {({ active }) => (
                           <a
                             href="./profile"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(
+                              active ? "bg-gray-100" : "",
+                              "block px-4 py-2 text-sm text-gray-700",
+                            )}
                           >
                             Your Profile
                           </a>
@@ -101,7 +103,10 @@ export default function Navigation() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(
+                              active ? "bg-gray-100" : "",
+                              "block px-4 py-2 text-sm text-gray-700",
+                            )}
                           >
                             Settings
                           </a>
@@ -111,7 +116,10 @@ export default function Navigation() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(
+                              active ? "bg-gray-100" : "",
+                              "block px-4 py-2 text-sm text-gray-700",
+                            )}
                           >
                             Sign out
                           </a>
@@ -132,10 +140,12 @@ export default function Navigation() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block rounded-md px-3 py-2 text-base font-medium",
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
@@ -145,5 +155,5 @@ export default function Navigation() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }

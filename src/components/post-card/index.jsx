@@ -1,7 +1,10 @@
 import PropTypes from "prop-types";
 
+/**
+ * Returns a ui component that displays a users post
+ * @param {object} props - user
+ */
 function PostCard(props) {
-
   return (
     <div className="m-auto flex flex-col gap-6 rounded-2xl bg-blue-50 px-6 py-4 dark:bg-gray-700">
       <div className="info flex gap-4">
@@ -35,7 +38,7 @@ function PostCard(props) {
 }
 
 PostCard.propTypes = {
-  author: PropTypes.string
+  author: PropTypes.string,
 };
 
 export default PostCard;

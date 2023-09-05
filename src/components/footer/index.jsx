@@ -1,3 +1,4 @@
+// {/* component from flowbite.com */}
 function Footer() {
   return (
     <>
