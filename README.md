@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WzuOnFrK)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11645542&assignment_repo_type=AssignmentRepo)
+
 # FED CSS Frameworks Course Assignment
 
 This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an `_`.
@@ -26,7 +27,13 @@ YOu can update your deployment pipeling by editing the [vercel.json](https://ver
 
 ## Report
 
-_ADD_YOUR_REPORT_HERE_
+Tailwind CSS was the framework we chose for web styling because it has accessible features, it is user friendly and responsive.
+
+We divided the pages so each of us had one page to make, but we decided on the design together. We chose to use green as the main color, and chose to make the design simple.Then we coded individually, but checked each other's pages if there were any changes that needed to be done. There were some templates and code from Tailwind and Flowbite that we used, but we also added our own code to make it look like our design.
+
+Andrea made the homepage, Hallvard the profile page and Mikaela the login page. We used common components such as the header and footer across all pages for consistency.
+
+Initially, we had some difficulty with branches, pull requests, and getting our individual changes to work on the page. However, we eventually figured it out through teamwork and perseverance.
 
 ## Getting Started
 
