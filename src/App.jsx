@@ -1,23 +1,12 @@
 import { Outlet, Link } from "@tanstack/react-router";
 import "./App.scss";
-
+import Navigation from "./components/navbar";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
       <header>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/profile">Profile</Link>
-            </li>
-            <li>
-              <Link to="/Login">Login</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navigation />
       </header>
 
       <main>
@@ -25,7 +14,7 @@ function App() {
       </main>
 
       <footer>
-        <small>Created with ❤️ by _REPLACE_</small>
+        <Footer />
       </footer>
     </>
   );

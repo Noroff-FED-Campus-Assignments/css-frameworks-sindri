@@ -1,4 +1,6 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WzuOnFrK)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11645542&assignment_repo_type=AssignmentRepo)
+
 # FED CSS Frameworks Course Assignment
 
 This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an `_`.
@@ -12,9 +14,8 @@ This project was bootstrapped with Vite.
 <!-- You must replace these links -->
 
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/css-frameworks/ca/ca)
-- [Design](_LINK_TO_FIGMA_)
-- [Production deploy](_LINK_TO_WEBSITE_)
-- [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
+- [Design](https://www.figma.com/file/n9RepwpZXbw4xUyaS0ndpV/CSS-Framework-project-team-5?type=design&node-id=0%3A1&mode=design&t=N98XWfsE8MekKTwJ-1)
+- [Production deploy](https://clever-panda-43a701.netlify.app/)
 
 ## Deployment
 
@@ -25,7 +26,15 @@ YOu can update your deployment pipeling by editing the [vercel.json](https://ver
 
 ## Report
 
-_ADD_YOUR_REPORT_HERE_
+Group: Andrea, Hallvard, Mikaela
+
+Tailwind CSS was the framework we chose for web styling because it has accessible features, it is user friendly and responsive.
+
+We divided the pages so each of us had one page to make, but we decided on the design together. We chose to use green as the main color, and chose to make the design simple.Then we coded individually, but checked each other's pages if there were any changes that needed to be done. There were some templates and code from Tailwind and Flowbite that we used, but we also added our own code to make it look like our design.
+
+Andrea made the homepage, Hallvard the profile page and Mikaela the login page. We used common components such as the header and footer across all pages for consistency.
+
+Initially, we had some difficulty with branches, pull requests, and getting our individual changes to work on the page. However, we eventually figured it out through teamwork and perseverance.
 
 ## Getting Started
 
@@ -39,45 +48,45 @@ In the project directory, you can run:
 
 All of these todo's must be done to pass the asssignment.
 
-- [ ] As a customer I can view the searchbar component.
-- [ ] As a customer I can fill a form to create a new post.
-- [ ] As a customer I can list of posts.
-- [ ] As a customer I can view a profile image.
-- [ ] As a customer I can view details about a user
-- [ ] As a customer I can view a users contact details
-- [ ] As a customer I can view a users posts
-- [ ] As a customer I can fill out a form to post on a users wall
-- [ ] As a customer I can fill a form to login
+- [x] As a customer I can view the searchbar component.
+- [x] As a customer I can fill a form to create a new post.
+- [x] As a customer I can list of posts.
+- [x] As a customer I can view a profile image.
+- [x] As a customer I can view details about a user
+- [x] As a customer I can view a users contact details
+- [x] As a customer I can view a users posts
+- [x] As a customer I can fill out a form to post on a users wall
+- [x] As a customer I can fill a form to login
 
 ## Checklist
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
-- [ ] All pages have a meta description.
-- [ ] All pages have a valid title.
-- [ ] All pages import the correct css files.
-- [ ] All pages import the correct JS file.
-- [ ] Input fields have the following attributes;
-  - [ ] Name
-- [ ] All images have an alt tag;
-  - [ ] A name,
-  - [ ] A placeholder,
-  - [ ] A aria-describedby,
-  - [ ] Required
-- [ ] Removed all unused files.
-- [ ] Named all images properly.
-- [ ] Committed all my code to github.
-- [ ] My repo is publically viewable.
-- [ ] I've submitted/ written a report.
-- [ ] I've removed all todo notes in code.
-- [ ] I've removed all console logs in code.
-- [ ] Code is formatted correctly.
-- [ ] There are no red underlines in VSCode.
-- [ ] There are no error messages in the terminal when I run the project.
-- [ ] My code is indented correctly.
-- [ ] I've checked my report for grammer & spelling using grammerly or chatGPT
-- [ ] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- [ ] I've checked off every todo in this README.
+- [x] All pages have a meta description.
+- [x] All pages have a valid title.
+- [x] All pages import the correct css files.
+- [x] All pages import the correct JS file.
+- [x] Input fields have the following attributes;
+  - [x] Name
+- [x] All images have an alt tag;
+  - [x] A name,
+  - [x] A placeholder,
+  - [x] A aria-describedby,
+  - [x] Required
+- [x] Removed all unused files.
+- [x] Named all images properly.
+- [x] Committed all my code to github.
+- [x] My repo is publically viewable.
+- [x] I've submitted/ written a report.
+- [x] I've removed all todo notes in code.
+- [x] I've removed all console logs in code.
+- [x] Code is formatted correctly.
+- [x] There are no red underlines in VSCode.
+- [x] There are no error messages in the terminal when I run the project.
+- [x] My code is indented correctly.
+- [x] I've checked my report for grammer & spelling using grammerly or chatGPT
+- [x] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] I've checked off every todo in this README.
 
 ## Help & Tutorials
 

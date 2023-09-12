@@ -1,8 +1,9 @@
 import { useUsersPosts } from "../../lib/my-api";
-
+import { MakeComment } from "../comment-field";
+import PostCard from "../post-card";
 function ExampleUsersPosts() {
   const userId = 2;
-  const { status, error, data } = useUsersPosts(userId);
+  const { status, error} = useUsersPosts(userId);
   const isLoading = status === "loading";
 
   if (isLoading) {
@@ -15,21 +16,17 @@ function ExampleUsersPosts() {
 
   return (
     <>
-      <section role="search"></section>
+    <MakeComment/>
+    <div className="my-5">
+    <PostCard author="Ola Olsen" />
+    </div>
+    <div className="my-5">
+    <PostCard author="Kari Børresen" />
+    </div>
+    <div className="my-5">
+    <PostCard author="Line Hansen" />
+    </div>
 
-      <article role="doc-introduction">
-        <h2>List</h2>
-
-        {data.posts.map((post) => (
-          <div key={post.id}>
-            <h3>{post.title}</h3>
-          </div>
-        ))}
-      </article>
-
-      <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
-      </section>
     </>
   );
 }
